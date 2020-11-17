@@ -13,4 +13,7 @@ for (i=0; i < 16; i++) {
 let grid = document.getElementById('grid')
 grid.addEventListener("mouseover", function(event) {
     event.target.style.background = "purple";
-})
+    setTimeout(function() {
+        event.target.style.background = "";
+    }, 500);
+}, false);
