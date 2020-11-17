@@ -1,11 +1,13 @@
 #grid {
     display: grid;
     grid-template-columns: repeat(16, 0fr);
+    border: thick solid grey;
+    margin: 0px;
 }
 
 div {
     height: 30px;
     width: 30px;
-    border: 1px solid red;
     margin: 0;
+    border: thin solid red;
 }
